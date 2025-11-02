@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alveary — To Read</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/css1.css">
+</head>
+
+<body class="bg-[#0f1115] text-gray-200 font-sans">
+
+  <!-- Header -->
+  <header class="border-b border-gray-700">
+    <nav class="container mx-auto px-4 py-5 flex justify-between items-center">
+      <a href="../index.html" class="text-2xl font-serif font-bold text-accent-light">Alveary</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="../index.html" class="text-gray-300 hover:text-white transition-colors">Home</a>
+        <a href="./profile.html" class="text-gray-300 hover:text-white transition-colors">Profile</a>
+        <a href="./all-papers.html" class="text-gray-300 hover:text-white transition-colors">All Papers</a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="#" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Log Out</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="bg-[#181a1e] border-b border-gray-700 py-10">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div>
+        <h1 class="text-3xl font-serif font-bold text-white">To Be Read</h1>
+        <p class="text-gray-400 mt-2">Papers you’ve saved for later — your intellectual backlog.</p>
+      </div>
+      <div class="mt-4 md:mt-0 flex space-x-4">
+        <input type="text" placeholder="Search papers..." class="bg-[#1a1d22] border border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-300 focus:outline-none focus:border-accent-light transition">
+        <select class="bg-[#1a1d22] border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-accent-light transition">
+          <option>Sort by: Added Date</option>
+          <option>Title (A–Z)</option>
+          <option>Author</option>
+          <option>Year</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="container mx-auto px-4 py-12">
+
+    <!-- Table -->
+    <div class="overflow-x-auto bg-[#1a1d22] border border-gray-700 rounded-xl shadow-lg">
+      <table class="min-w-full text-sm text-left text-gray-300">
+        <thead class="border-b border-gray-700 text-gray-400 uppercase text-xs tracking-wider">
+          <tr>
+            <th class="px-6 py-4 font-medium">Title</th>
+            <th class="px-6 py-4 font-medium">Author(s)</th>
+            <th class="px-6 py-4 font-medium">Publication</th>
+            <th class="px-6 py-4 font-medium">Year</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-800">
+          <tr class="hover:bg-[#24272d] transition">
+            <td class="px-6 py-4 font-serif text-accent-light">Decision Making and Free Will: A Neuroscience Perspective</td>
+            <td class="px-6 py-4">Kelly Burns J.D., Antoine Bechara Ph.D</td>
+            <td class="px-6 py-4">Behavioral Sciences & the Law</td>
+            <td class="px-6 py-4">2007</td>
+          </tr>
+          <tr class="hover:bg-[#24272d] transition">
+            <td class="px-6 py-4 font-serif text-accent-light">Experimental Philosophy and Free Will</td>
+            <td class="px-6 py-4">Tamler Sommers</td>
+            <td class="px-6 py-4">Philosophy Compass</td>
+            <td class="px-6 py-4">2010</td>
+          </tr>
+          <tr class="hover:bg-[#24272d] transition">
+            <td class="px-6 py-4 font-serif text-accent-light">Hume’s Metaethics: Is Hume a Moral Noncognitivist?</td>
+            <td class="px-6 py-4">Nicholas L. Sturgeon</td>
+            <td class="px-6 py-4">A Companion to Hume</td>
+            <td class="px-6 py-4">2008</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#0f1115] border-t border-gray-700">
+    <div class="container mx-auto px-4 py-12 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+      <div class="mb-4 md:mb-0">
+        <a href="#" class="text-xl font-serif font-bold text-accent-light">Alveary</a>
+        <p class="text-sm text-gray-500 mt-1">
+          ϕιλοσοϕία<br>love of knowledge 
+        </p>
+      </div>
+      <div class="flex space-x-6 text-gray-300">
+        <a href="../about.html" class="text-sm hover:text-white">About</a>
+        <a href="#" class="text-sm hover:text-white">Source Code</a>
+        <a href="#" class="text-sm hover:text-white">Privacy</a>
+        <a href="#" class="text-sm hover:text-white">Terms</a>
+      </div>
+      <div class="mt-4 md:mt-0">
+        <p class="text-sm text-gray-500">&copy; 2025 Alveary. All gay rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

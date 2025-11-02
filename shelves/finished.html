@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alveary — Finished</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/css1.css">
+</head>
+
+<body class="bg-[#0f1115] text-gray-200 font-sans">
+
+  <!-- Header -->
+  <header class="border-b border-gray-700">
+    <nav class="container mx-auto px-4 py-5 flex justify-between items-center">
+      <a href="../index.html" class="text-2xl font-serif font-bold text-accent-light">Alveary</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="../index.html" class="text-gray-300 hover:text-white transition-colors">Home</a>
+        <a href="./profile.html" class="text-gray-300 hover:text-white transition-colors">Profile</a>
+        <a href="./all-papers.html" class="text-gray-300 hover:text-white transition-colors">All Papers</a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="#" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Log Out</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="bg-[#181a1e] border-b border-gray-700 py-10">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div>
+        <h1 class="text-3xl font-serif font-bold text-white">Finished Papers</h1>
+        <p class="text-gray-400 mt-2">Your most impactful and transformative reads — the ones that stuck.</p>
+      </div>
+      <div class="mt-4 md:mt-0 flex space-x-4">
+        <input type="text" placeholder="Search finished..." class="bg-[#1a1d22] border border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-300 focus:outline-none focus:border-accent-light transition">
+        <select class="bg-[#1a1d22] border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-accent-light transition">
+          <option>Sort by: Rating</option>
+          <option>Title (A–Z)</option>
+          <option>Author</option>
+          <option>Year</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="container mx-auto px-4 py-12">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Paper Card -->
+      <div class="bg-[#1a1d22] border border-gray-700 rounded-xl p-6 hover:border-accent-light/40 transition">
+        <h3 class="text-xl font-serif text-accent-light mb-1">Freedom and Resentment</h3>
+        <p class="text-gray-400 text-sm">P. F. Strawson · 1962 · <em>Proceedings of the British Academy</em></p>
+        <p class="text-sm text-accent-light mt-3">★★★★★</p>
+        <blockquote class="text-gray-400 italic mt-3 text-sm border-l-2 border-gray-700 pl-3">
+          “Redefined my understanding of moral responsibility. Pure philosophical precision.”
+        </blockquote>
+      </div>
+
+      <!-- Paper Card -->
+      <div class="bg-[#1a1d22] border border-gray-700 rounded-xl p-6 hover:border-accent-light/40 transition">
+        <h3 class="text-xl font-serif text-accent-light mb-1">What Is It Like to Be a Bat?</h3>
+        <p class="text-gray-400 text-sm">Thomas Nagel · 1974 · <em>The Philosophical Review</em></p>
+        <p class="text-sm text-accent-light mt-3">★★★★★</p>
+        <blockquote class="text-gray-400 italic mt-3 text-sm border-l-2 border-gray-700 pl-3">
+          “The paper that made me fall in love with philosophy of mind. Pure existential punch.”
+        </blockquote>
+      </div>
+
+      <!-- Paper Card -->
+      <div class="bg-[#1a1d22] border border-gray-700 rounded-xl p-6 hover:border-accent-light/40 transition">
+        <h3 class="text-xl font-serif text-accent-light mb-1">Moral Luck</h3>
+        <p class="text-gray-400 text-sm">Thomas Nagel · 1979 · <em>Proceedings of the Aristotelian Society</em></p>
+        <p class="text-sm text-accent-light mt-3">★★★★☆</p>
+        <blockquote class="text-gray-400 italic mt-3 text-sm border-l-2 border-gray-700 pl-3">
+          “Made me question the coherence of moral judgment itself.”
+        </blockquote>
+      </div>
+
+      <!-- Paper Card -->
+      <div class="bg-[#1a1d22] border border-gray-700 rounded-xl p-6 hover:border-accent-light/40 transition">
+        <h3 class="text-xl font-serif text-accent-light mb-1">Utilitarianism</h3>
+        <p class="text-gray-400 text-sm">John Stuart Mill · 1863</p>
+        <p class="text-sm text-accent-light mt-3">★★★★★</p>
+        <blockquote class="text-gray-400 italic mt-3 text-sm border-l-2 border-gray-700 pl-3">
+          “A foundational piece that continues to provoke, decades later.”
+        </blockquote>
+      </div>
+
+      <!-- Paper Card -->
+      <div class="bg-[#1a1d22] border border-gray-700 rounded-xl p-6 hover:border-accent-light/40 transition">
+        <h3 class="text-xl font-serif text-accent-light mb-1">The Objectivity of Values</h3>
+        <p class="text-gray-400 text-sm">J. L. Mackie · 1977 · <em>Ethics: Inventing Right and Wrong</em></p>
+        <p class="text-sm text-accent-light mt-3">★★★★★</p>
+        <blockquote class="text-gray-400 italic mt-3 text-sm border-l-2 border-gray-700 pl-3">
+          “The most elegant defense of moral skepticism I’ve ever encountered.”
+        </blockquote>
+      </div>
+
+      <!-- Paper Card -->
+      <div class="bg-[#1a1d22] border border-gray-700 rounded-xl p-6 hover:border-accent-light/40 transition">
+        <h3 class="text-xl font-serif text-accent-light mb-1">The Myth of Sisyphus</h3>
+        <p class="text-gray-400 text-sm">Albert Camus · 1942</p>
+        <p class="text-sm text-accent-light mt-3">★★★★★</p>
+        <blockquote class="text-gray-400 italic mt-3 text-sm border-l-2 border-gray-700 pl-3">
+          “A stunning synthesis of absurdism and rebellion — the paper that shaped my worldview.”
+        </blockquote>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#0f1115] border-t border-gray-700">
+    <div class="container mx-auto px-4 py-12 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+      <div class="mb-4 md:mb-0">
+        <a href="#" class="text-xl font-serif font-bold text-accent-light">Alveary</a>
+        <p class="text-sm text-gray-500 mt-1">
+          ϕιλοσοϕία<br>love of knowledge 
+        </p>
+      </div>
+      <div class="flex space-x-6 text-gray-300">
+        <a href="../about.html" class="text-sm hover:text-white">About</a>
+        <a href="#" class="text-sm hover:text-white">Source Code</a>
+        <a href="#" class="text-sm hover:text-white">Privacy</a>
+        <a href="#" class="text-sm hover:text-white">Terms</a>
+      </div>
+      <div class="mt-4 md:mt-0">
+        <p class="text-sm text-gray-500">&copy; 2025 Alveary. All gay rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

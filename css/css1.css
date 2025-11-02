@@ -1,0 +1,31 @@
+/* ========== Base Fonts & Colors ========== */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fdfdfc; /* light mode background */
+    color: #33332f; /* light mode text */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+  }
+  
+  /* ========== Dark Mode Base (Tailwind adds .dark class to <html>) ========== */
+  
+  html.dark body {
+    background-color: #181a1e; /* dark background */
+    color: #e0e1e2; /* light text */
+  }
+  
+  /* ========== Optional Fine-Tuning (if Tailwind classes aren't enough) ========== */
+  
+  a {
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    opacity: 0.85;
+  }
+
